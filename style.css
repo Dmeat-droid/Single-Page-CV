@@ -1,0 +1,52 @@
+* {
+  font-family:"Noto Sans", sans-serif;
+  margin: 0;
+}
+
+body{
+  display: flex;
+  justify-content: center;
+}
+
+.dm-serif-text-regular {
+  font-family: "DM Serif Text", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+h1 {
+  font-size: 50pt;
+}
+
+h2 {
+  font-weight: 500;
+  font-size: 13pt;
+}
+
+h3 {
+  font-weight: 400;
+  font-size: 15pt;
+  color: rgb(0, 104, 209);
+  margin-top: 5px;
+}
+
+section {
+  border-bottom: solid black 1px;
+  padding: 10px;
+  margin: 1px 25px;
+}
+
+#title {
+  color: rgb(0, 202, 0);
+}
+
+#internets {
+  border: none;
+}
+
+.container {
+  max-width: 900px;
+  margin: 50px;
+  padding: 5px;
+  border: solid black 5px;
+}
